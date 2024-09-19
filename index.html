@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Portfolio</title>
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- /css file link -->
+    <link rel="stylesheet" href="styles.css">
+
+   
+
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+            <a href="#Project">Project</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Karthick S</h1>
+            <h3>And I'm a <span>Web Developer & Python Enthusiast</span></h3>
+            <p>Welcome to My Portfolio!<br>
+               I have completed my MCA at Anna University.<br>
+               I'm an enthusiastic beginner in the world of Python programming, passionate about building dynamic and responsive web applications.</p>
+            
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/karthick-s-0319462a2/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/SKarthickY"><i class='bx bxl-github'></i></a>
+                <a href="mailto:yuvankarthi535@gmail.com"><i class='bx bx-envelope'></i></a>
+                  
+
+            </div>
+            <!-- Add this code within your header section, before or after other navigation links -->
+            <a href="Resume/Resume_sky.pdf" target="_blank" download class="btn">Download Resume</a>
+
+            <!-- <a href="#" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img src="Images/ivan11.jpg" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABout section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="Images/ivan2.jpg" height="450" width="350" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>  Me </span></h2>
+            <p>I am a passionate web developer with expertise in both frontend and backend technologies. My skill set includes HTML, CSS, JavaScript, and React.js for creating visually appealing and responsive user interfaces. I am proficient in Bootstrap for building responsive designs and have a solid foundation in Python, Django, Flask, and SQL for developing robust backend systems.</p>
+            <p>I enjoy crafting seamless user experiences and building dynamic, data-driven applications. My experience spans various projects, where I have successfully implemented full-stack solutions, ensuring optimal performance and scalability.</p>
+        </div>
+       
+    </section>
+
+    <!-- section  Skill-->
+  <!-- Section: Skill -->
+
+<section class="Skill" id="Skill">
+    <h2 class="heading"> My <span>Skills</span></h2>
+    <div class="skill-container">
+        <div class="skill-box">
+            <h3>Programming Languages</h3>
+            <p>Python</p>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Web Development</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>React.js</p>
+            <p>Bootstrap</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Backend Development</h3>
+            <p>Python</p>
+            <p>Django</p>
+            <p>Flask</p>
+            <p>SQL</p>
+            <p>MongoDB</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Tools & Platforms</h3>
+            <p>Git</p>
+            <p>GitHub</p>
+            <p>MongoDB Atlas</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- project section -->
+    <section class="Project" id="Project">
+        <h2 class="heading">My <span>Project</span></h2>
+        <div class="Project-container">
+            <div class="Project-box">
+                <img src="Images/Project_1.jpg" height="250" width="600" alt="">
+                <div class="Project-layer">
+                    <h4>Malicious URL Detection</h4>
+                    <p>The Malicious URL Detection using Machine Learning typically involves developing a
+                        system or algorithm that can automatically classify URLs as either benign or malicious based on their
+                        characteristics. This involves collecting a dataset of URLs labeled as either benign or malicious,
+                        extracting relevant features from the URLs (such as domain, path, length, etc.), and training a machine
+                        learning model to predict the label of unseen URLs. The goal is to create a system that can effectively
+                        identify and block malicious URLs to enhance cybersecurity measures.</p>
+                        <a href="https://github.com/SKarthickY/Malicious-URL-Detection.git" aria-label="GitHub link to Malicious URL Detection project" target="_blank">
+                            <i class='bx bx-link-external'></i>
+                        </a>
+                </div>
+    </section>
+
+<!-- Footer Design -->
+<footer class="footer">
+    <div class="footer-whatsapp">
+        <a href="https://wa.me/7339149287" style="display: flex; align-items: center; text-decoration: none; color: #25D366;">
+            <i class='bx bxl-whatsapp' style="font-size: 24px; margin-right: 8px;"></i>
+            <span>Chat with me on WhatsApp</span>
+        </a>
+    </div>
+    <div class="footer-iconTop">
+        <a href="#home" aria-label="Back to top"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+</footer>
+
+    <!-- scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+
+</body>
+</html>
